@@ -1,0 +1,15 @@
+- the server-server folder is the django project
+- the endpoints is the app that sets up the API endpoints of our server for communication
+
+- innermost settings.py is to install plugins, modify database engines, install django apps, change middleware
+
+- the urls.py in the innermost server folder is to route requests to our actual server code i.e. the urls.py in endpoints
+- the urls.py in the endpoints folder is to route api requests to our actual app API that we are building
+
+## Seems to be the main API doc for Firestore
+https://cloud.google.com/python/docs/reference/firestore/latest/client
+
+## Other useful documentation links:
+https://firebase.google.com/docs/admin/setup?authuser=0#add_firebase_to_your_app
+https://firebase.google.com/docs/reference/admin/python/
+https://firebase.google.com/docs/functions/get-started?gen=2nd
